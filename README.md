@@ -1,4 +1,7 @@
 Simulador de Página de Netflix
+
+VISTA PREVIA:https://arleyherran.github.io/Netclick/
+
 Este proyecto es un ejercicio del SENA que consiste en un simulador de página de Netflix. La aplicación web permite a los usuarios explorar una variedad de películas y reproducirlas en línea. El objetivo principal de este simulador es replicar la interfaz y funcionalidad básica de Netflix, proporcionando una experiencia de usuario intuitiva y fluida.
 
 Características
@@ -11,7 +14,7 @@ CSS3: Estilización de la interfaz.
 JavaScript: Funcionalidad interactiva.
 Bootstrap: Framework para el diseño responsivo.
 Instalación
-Clona el repositorio: git clone https://github.com/usuario/simulador-netflix.git
+Clona el repositorio: git clone https://github.com/ArleyHerran/Netclick
 Navega al directorio del proyecto: cd simulador-netflix
 Abre index.html en tu navegador web.
 Contribución
