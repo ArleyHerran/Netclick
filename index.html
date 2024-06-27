@@ -1,0 +1,194 @@
+<!--PAGINA HECHA POR JUAN ARLEY HERRAN DUCUARA APRENDIZ SENA 
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<title>Netclick</title>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<h2 class="logotipo">Netclick</h2>
+			<nav>
+				<a href="#" class="activo" >Inicio</a>
+				<a href="#popular">Populares</a>
+				<a href="#gratis">Gratis</a>
+				<a href="#avanze" >Avanzes</a>
+
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+				<h3 class="titulo">Animales Fantasticos: Los secretos de Dumbledor</h3>
+				<p class="descripcion">
+					El profesor Albus Dumbledore sabe que el poderoso mago oscuro Gellert Grindelwald está haciendo planes para apoderarse del mundo mágico. Incapaz de detenerlo él solo, confía en el Magizoólogo NewScamander para dirigir un intrépido equipo de magos, brujas y un valiente panadero Muggle en una misión peligrosa, donde se encuentran con antiguos y nuevos animales y se enfrentan a una legión cada vez más numerosa de seguidores de Grindelwald.
+				</p>
+				<button role="button" class="boton" onclick="videoVer('video/principal.mp4','Animales Fantasticos: Los secretos de Dumbledor');"><i class="fas fa-play" ></i>Reproducir</button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+			</div>
+		</div>
+
+		<div class="peliculas-recomendadas contenedor" id="recomendadas">
+			<div class="contenedor-titulo-controles">
+				<h3>Películas Recomendadas</h3>
+				<div class="indicadores"></div>
+			</div>
+
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a ><img src="img/1.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/4.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/5.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/6.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/7.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/1.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/1.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/4.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/5.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/6.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/7.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/1.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a ><img src="img/4.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+
+
+
+		<fieldset class="sections" id="popular">
+			<legend>Peliculas populares</legend>
+			<div class="pl" id="pl1">
+
+
+
+		 </div>
+		</fieldset>
+		<fieldset class="sections" id="gratis">
+			<legend>Gratis</legend>
+			<div class="pl" id="pl2">
+
+			</div>
+		</fieldset>
+		<fieldset class="sections" id="avanze">
+			<legend>Avanzes</legend>
+			<div class="pla" id="pl3">
+
+			</div>
+		</fieldset>
+
+		<div class="pie" id="pie">
+
+		<div class="d">
+			<h4>!Profesional-Copyright ©2023. Pagina de peliculas . Todos los derechos reservados</h4>
+			<H4>Maquetación de la Interfaz gráfica en HTML GA5-220501095-AA1-EV04 - Evidencia en Equipo</H4>
+			<p style="font-size:0.7rem;">Ficha:2521971</p>
+		</div>
+
+		<div class="redes">
+			<img src="img/facebook-icon.png" alt="">
+			<img src="img/whatsapp-icon.png" alt="">
+			<img src="img/google-icon.png" alt="">
+			<img src="img/youtube-icon.png" alt="">
+
+		</div>
+		<div class="fin">
+
+    <p style="font-size:0.7rem;">Trabajo de Arley Herran</p>
+		</div>
+
+		</div>
+	</main>
+
+
+	<div class="viewPeli" id="viewPeli" style="display:none">
+		<div class="back-v">
+			<div class="">
+
+				<div class="cerrar">
+					<div id="tll">
+
+					</div>
+					<img src="img/cerrar.png" alt="" onclick="cerrarVideo();">
+				</div>
+
+				
+				<video autoplay controls id="reproductor">
+					<source src="" type="video/mp4">
+				  </video>
+			</div>
+
+
+		</div>
+
+
+	</div>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
